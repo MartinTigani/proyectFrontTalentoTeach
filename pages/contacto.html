@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <main>
+
+        <form action="https://formspree.io/f/xkgveevb" method="post" autocomplete="on">
+            <label for="nombre">Nombre: <input type="text" id="nombre" name="nombre" required></label>
+            <br>
+            <label for="correo">Correo <input type="email" name="correo" id="correo" required></label>
+            <br>
+            <label for="contrasena">Contraseña <input type="password" name="contrasena" id="contrasena" required></label>
+            <br>
+            <label for="file">Archivo <input type="file" id="file"></label>
+            <br>
+            <textarea name="mensaje" id="mensaje" rows="4" cols="40"></textarea>
+            <br>
+            
+
+            <select name="opciones" id="menu">
+                <option value="opcion1">Opcion 1</option>
+                <option value="opcion2">Opcion 2</option>
+            </select>
+
+            <input type="hidden" name="oculto" value="https://www.google.com">
+            <button type="submit">Enviar</button>
+        </form>
+    </main>
+</body>
+<footer>
+
+</footer>
+</html>

@@ -1,0 +1,31 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: lightblue;
+    color:blue;
+    font-size: 16px;
+    font-style: italic;
+}
+
+footer{
+    background-color: lightgray;
+    color: brown;
+}
+
+nav{
+    padding: 10px;
+}
+nav ul{
+    display: flex;
+}
+nav a{
+    list-style-type:none;
+    text-decoration: none;
+    color: green;
+    margin-right: 15px;
+}
