@@ -5,8 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contacto</title>
     <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 <header>
+    <h1>Contactanos</h1>
     <nav>
         <ul class="navList">
             <li><a href="../index.html">Inicio</a></li>
@@ -19,31 +21,30 @@
 </header>
 <body>
     <main>
-
-        <form action="https://formspree.io/f/xkgveevb" method="post" autocomplete="on">
-            <label for="nombre">Nombre: <input type="text" id="nombre" name="nombre" required></label>
-            <br>
-            <label for="correo">Correo <input type="email" name="correo" id="correo" required></label>
-            <br>
-            <label for="contrasena">Contraseña <input type="password" name="contrasena" id="contrasena" required></label>
-            <br>
-            <label for="file">Archivo <input type="file" id="file"></label>
-            <br>
-            <textarea name="mensaje" id="mensaje" rows="4" cols="40"></textarea>
-            <br>
-            
-
-            <select name="opciones" id="menu">
-                <option value="opcion1">Opcion 1</option>
-                <option value="opcion2">Opcion 2</option>
-            </select>
-
-            <input type="hidden" name="oculto" value="https://www.google.com">
+        <form class="formulario" action="https://formspree.io/f/xkgveevb" method="post" autocomplete="on">
+            <label for="nombre">Nombre: </label>
+            <input type="text" id="nombre" name="nombre" required placeholder="Ingrese su nombre..">
+            <label for="correo">Correo:</label>
+            <input type="email" name="correo" id="correo" required placeholder="Ingrese su email..">
+            <label for="contrasena">Contraseña:</label>
+            <input type="password" name="contrasena" id="contrasena" required placeholder="Ingrese su contraseña..">
+            <label for="mensaje">Mensaje:</label>
+            <textarea name="mensaje" id="mensaje" rows="4" cols="40" placeholder="Ingrese un mensaje..."></textarea>
             <button type="submit">Enviar</button>
         </form>
     </main>
-</body>
-<footer>
 
-</footer>
+    <footer>
+        <p>®2025 Mi sitio web. Todos los derechos reservados</p>
+        <a href="https://www.facebook.com/tu-pagina" target="_blank">
+            <i class="fab fa-facebook fa-2x"></i>
+        </a>
+        <a href="https://www.instagram.com/tu-cuenta" target="_blank">
+            <i class="fab fa-instagram fa-2x"></i>
+        </a>
+        <a href="https://www.twitter.com/tu-cuenta" target="_blank">
+            <i class="fab fa-twitter fa-2x"></i>
+        </a>
+    </footer>
+</body>
 </html>
