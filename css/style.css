@@ -30,6 +30,11 @@ h1{
     margin-bottom: 1rem;
     margin-top: -2rem;
     margin-left: 3rem;
+    
+}
+#Logo a{
+    list-style-type:none;
+    text-decoration: none;
     animation: intento-animacion 2s infinite;
     display: inline-block;
 }
@@ -143,6 +148,8 @@ nav ul li:hover {
     border-radius: 2em;
 }
 
+
+
 .formulario input, .formulario textarea{
     padding: 1em;
     border-radius: 1em;
@@ -228,4 +235,12 @@ nav ul li:hover {
     transform: scale(1);
     transform: translate(-10px, -1px);
   }
+}
+
+@media (max-width: 768px) {
+    .formulario {
+        width: 60%;
+    }
+    
+    
 }
