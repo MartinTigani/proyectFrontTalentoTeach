@@ -1,5 +1,5 @@
-import { obtenerCarrito } from "./storage.js";
 
+import { obtenerCarrito } from "./storage.js";
 import { actualizarContador } from "./ui.js"; 
 import { eliminarProductoDelCarrito, vaciarElCarrito } from "./funcionesCarrito.js";
 
@@ -22,7 +22,7 @@ const renderizarCarrito = () => {
         tarjetaProducto.classList.add("producto");
 
         const imagenProducto = document.createElement("img");
-        imagenProducto.src = producto.imagen;
+        imagenProducto.src = `../${producto.imagen}`;
         imagenProducto.alt = producto.titulo;
 
         const tituloProducto = document.createElement("h2");

@@ -1,0 +1,13 @@
+
+[
+    {"id":"1", "titulo": "47 Street Rock Mujer", "precio": 120000, "imagen": "imagenes/47StreetRockMujer.webp"},
+    {"id":"2", "titulo": "Adidas Ozelle", "precio": 115000, "imagen": "imagenes/adidasOzelle.webp"},
+    {"id":"3", "titulo": "Adidas Response", "precio": 99000, "imagen": "imagenes/adidasResponse.jpg"},
+    {"id":"4", "titulo": "Daily Clasic lona", "precio": 70000, "imagen": "imagenes/dailyClasicLona.jpg"},
+    {"id":"5", "titulo": "Fila Stay", "precio": 75000, "imagen": "imagenes/filaStay.webp"},
+    {"id":"6", "titulo": "Nike Air Max", "precio": 170000, "imagen": "imagenes/nikeAirMax.webp"},
+    {"id":"7", "titulo": "Nike Air Max negra", "precio": 160000, "imagen": "imagenes/nikeAirMaxNegra.jfif"},
+    {"id":"8", "titulo": "Puma Park", "precio": 75000, "imagen": "imagenes/pumaPark.jfif"},
+    {"id":"9", "titulo": "Stone", "precio": 48000, "imagen": "imagenes/stone.webp"},
+    {"id":"10", "titulo": "Topper", "precio": 55000, "imagen": "imagenes/topper.jpg"}
+]
