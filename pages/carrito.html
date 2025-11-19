@@ -1,48 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Footure</title>
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nosifer&display=swap" rel="stylesheet">
-    
-    
 </head>
 
 <body>
     <header>
         <h1>Foot-ure  el futuro en tus pies</h1>
         <h2 id="Logo"><a href="#">Footure</a></h2>
-        
-        <a href="./pages/carrito.html">
-            <i id="icon-carrito" class="fa-solid fa-cart-shopping">
-                <span id="contador-carrito">0</span>
-            </i>
-        </a>
+        <i id="icon-carrito" class="fa-solid fa-cart-shopping">
+            <span id="contador-carrito">0</span>
+        </i>
         <nav>
             <ul class="navList">
-                <li><a href="#">Inicio</a></li>
+                <li><a href="../index.html">Inicio</a></li>
                 <li><a href="">Nosotros</a></li>
                 <li><a href="">Productos</a></li>
                 <li><a href="">Servicios</a></li>
-                <li><a href="./pages/contacto.html">Contacto</a></li>
+                <li><a href="./contacto.html">Contacto</a></li>
             </ul>
         </nav>
     </header>
     <main>  
-        <section class="sections">
-            <audio controls class="audio">
-                <source src="audios/Intro.aac" type="audio/mpeg">
-            </audio>
-            <h2>Nuestros productos</h2>
-            <div id="contenedor-productos" class="contenedor-productos">
-            
+        <section class="sections" id="id-section">
+            <h2>Productos en el carrito</h2>
+            <div id="contenedor-carrito" class="contenedor-carrito">
+            </div>
+            <div class="acciones-carrito" id="acciones-carrito">
             </div>
         </section>
     </main>
@@ -58,6 +50,6 @@
             <i class="fab fa-twitter fa-2x"></i>
         </a>
     </footer>
-    <script type="module" src="./js/index.js"></script>
+    <script type="module" src="../js/carrito.js"></script>
 </body>
 </html>
