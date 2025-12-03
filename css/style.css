@@ -239,6 +239,15 @@ button:hover{
     transition: all 1s;
 }
 
+.texto{
+  text-align: center;
+  margin-top: 10px;
+  margin-left: 25%;
+  margin-right: 25%;
+  font-size: 1.7rem;
+  margin-bottom: 10px;
+}
+
 @keyframes intento-animacion {
   0% {
     color: rgb(255, 0, 0);
@@ -307,17 +316,22 @@ button:hover{
     h1{
         font-size: 1.5rem;
     }
+    .texto{
+        font-size: 1.2rem;
+    }
 }
 
 @media (max-width: 480px) {
     h1{
         font-size: 1.2rem;
     }
+    .texto{
+        font-size: 1rem;
+    }
 }
-
-
 .audio{
   display: block;
   margin: 0 auto;
   margin-top: 20px;
 }
+
